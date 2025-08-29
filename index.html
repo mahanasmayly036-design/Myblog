@@ -493,3 +493,64 @@
 
   
   google-site-verification: googlefbdf4d65344a8bdb.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جستجوی مقاله</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            width: 300px;
+            padding: 8px;
+            font-size: 16px;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>جستجوی مقاله</h2>
+<input type="text" id="searchInput" placeholder="نام مقاله را تایپ کنید..." onkeyup="searchArticles()">
+
+<ul id="results"></ul>
+
+<script>
+    const articles = [
+        "مقاله اول درباره HTML",
+        "مقاله دوم درباره CSS",
+        "آموزش جاوااسکریپت",
+        "راهنمای طراحی وب سایت",
+        "مقالات پیشرفته CSS و HTML"
+    ];
+
+    function searchArticles() {
+        const input = document.getElementById('searchInput').value.toLowerCase();
+        const results = document.getElementById('results');
+        results.innerHTML = '';
+
+        const filtered = articles.filter(article => article.toLowerCase().includes(input));
+
+        if (filtered.length > 0) {
+            filtered.forEach(article => {
+                const li = document.createElement('li');
+                li.textContent = article;
+                results.appendChild(li);
+            });
+        } else {
+            results.innerHTML = '<li>هیچ مقاله‌ای یافت نشد</li>';
+        }
+    }
+</script>
+
+</body>
+</html>
