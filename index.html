@@ -339,6 +339,7 @@
           <li><a href="article11.html">چرا هدفی که داریم برایمان مهم است،ولی برایش کاری انجام نمی دهیم؟</a></li>
           <li><a href="article9.html">استرس و روش های مدیریت آن</a></li>
           <li><a href="article12.html">عصبانیت و راه کنترل آن</a></li>
+          <li><a href="article13.html">خستگی و راه حل های ان</a></li>
         </ul>
       </section>
     </div>
@@ -542,7 +543,7 @@
         const filtered = articles.filter(article => article.toLowerCase().includes(input));
 
         if (filtered.length > 0) {
-            filtered.forEach(article => {
+            filtered.forEach(article => {console.log("JS فعال است");
                 const li = document.createElement('li');
                 li.textContent = article;
                 results.appendChild(li);
