@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <p><a href="index.html">⬅ بازگشت به صفحه اصلی<
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رمز موفقیت افراد مشهور</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    body {
+        font-family: 'Tahoma', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f7fa;
+        color: #333;
+        line-height: 1.8;
+    }
+    header {
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        color: #fff;
+        text-align: center;
+        padding: 60px 20px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    header h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 30px 20px;
+    }
+    img {
+        width: 100%;
+        border-radius: 15px;
+        margin: 25px 0;
+        cursor: pointer;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        transition: transform 0.3s;
+    }
+    img:hover {
+        transform: scale(1.02);
+    }
+    h2 {
+        color: #ff7e5f;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border-bottom: 3px solid #feb47b;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+    h3 {
+        color: #feb47b;
+        margin-top: 20px;
+    }
+    p {
+        margin-bottom: 18px;
+    }
+    ul {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    li {
+        margin-bottom: 12px;
+    }
+    .card {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        margin-bottom: 35px;
+        transition: transform 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .icon-list li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+    .tip {
+        border-left: 6px solid #27ae60;
+        background-color: #e8f6ea;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        animation: pulse 2s infinite;
+    }
+    .warning {
+        border-left: 6px solid #c0392b;
+        background-color: #fbeaea;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.02); }
+        100% { transform: scale(1); }
+    }
+    .chart-container {
+        margin: 25px 0;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+    .bar {
+        height: 28px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        text-align: right;
+        color: #fff;
+        padding-right: 12px;
+        line-height: 28px;
+        font-weight: bold;
+        transition: width 2s ease-in-out;
+    }
+    .bar-discipline { background-color: #ff6b6b; width: 0; }
+    .bar-focus { background-color: #1dd1a1; width: 0; }
+    .bar-network { background-color: #54a0ff; width: 0; }
+    .back-button {
+        display: inline-block;
+        margin: 25px 0;
+        padding: 14px 28px;
+        background-color: #ff7e5f;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+    .back-button:hover {
+        background-color: #feb47b;
+    }
+    footer {
+        text-align: center;
+        padding: 30px;
+        margin-top: 50px;
+        color: #777;
+        font-size: 0.9em;
+    }
+
+    /* Lightbox */
+    .lightbox {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        padding-top: 80px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.9);
+    }
+    .lightbox img {
+        margin: auto;
+        display: block;
+        max-width: 90%;
+        max-height: 80%;
+    }
+    .lightbox:target {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>رمز موفقیت افراد مشهور؛ چه چیزی آنها را متفاوت کرده است؟</h1>
+</header>
+
+<div class="container">
+
+<a href="https://mahanasmayly036-design.github.io/Myblog/" class="back-button"><i class="fas fa-arrow-left"></i> بازگشت به صفحه اصلی</a>
+
+<!-- مقدمه -->
+<div class="card">
+    <h2>مقدمه</h2>
+    <p>
+    موفقیت افراد مشهور همواره جذاب و الهام‌بخش است. بسیاری از مردم تصور می‌کنند که تنها استعداد ذاتی باعث این موفقیت‌ها شده، اما حقیقت پیچیده‌تر است. در این مقاله، عوامل کلیدی موفقیت افراد مشهور، عادات روزمره، ذهنیت، پشتکار و مهارت‌های ارتباطی آنها را بررسی می‌کنیم.
+    </p>
+</div>
+
+<!-- تصویر با لایت‌باکس -->
+<a href="#img1"><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080" alt="موفقیت و هدف"></a>
+<div class="lightbox" id="img1">
+    <a href="#"><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080" alt="موفقیت و هدف"></a>
+</div>
+
+<!-- بخش استعداد -->
+<div class="card">
+    <h2>استعداد و تمرین مداوم</h2>
+    <p>
+    افراد مشهور استعداد ذاتی دارند، اما مهم‌ترین تفاوت، تمرین مداوم و هدفمند آنهاست. مطالعات نشان می‌دهد تمرین ۱۰ هزار ساعت تمرین عمیق می‌تواند به مهارت سطح بالا منجر شود. آنها روزانه زمان مشخصی را برای تمرین اختصاص می‌دهند و به بهبود مهارت‌ها تمرکز می‌کنند.
+    </p>
+</div>
+
+<!-- بخش عادات روزانه -->
+<div class="card">
+    <h2>عادات روزانه و مدیریت زمان</h2>
+    <ul class="icon-list">
+        <li><i class="fas fa-clock"></i> برنامه‌ریزی دقیق روزانه</li>
+        <li><i class="fas fa-book"></i> مطالعه و یادگیری مداوم</li>
+        <li><i class="fas fa-dumbbell"></i> ورزش منظم برای سلامت جسم و ذهن</li>
+        <li><i class="fas fa-bed"></i> خواب کافی و استراحت منظم</li>
+        <li><i class="fas fa-pencil-alt"></i> یادداشت‌برداری و مرور اهداف</li>
+    </ul>
+</div>
+
+<!-- نمودار تعاملی -->
+<div class="chart-container">
+    <h2>سه عامل کلیدی موفقیت</h2>
+    <div class="bar bar-discipline">انضباط و تمرین 90%</div>
+    <div class="bar bar-focus">تمرکز و هدف‌گذاری 75%</div>
+    <div class="bar bar-network">شبکه ارتباطات 60%</div>
+</div>
+
+<!-- بخش ذهنیت -->
+<div class="card">
+    <h2>ذهنیت رشد و تفکر مثبت</h2>
+    <p>
+    افراد موفق شکست را تجربه‌ای برای یادگیری می‌بینند و همیشه به دنبال فرصت‌های جدید هستند. این ذهنیت باعث می‌شود در مواجهه با چالش‌ها مقاوم باشند و سریع‌تر به اهداف برسند.
+    </p>
+</div>
+
+<!-- بخش پشتکار -->
+<div class="card">
+    <h2>پشتکار و استمرار</h2>
+    <p>
+    پشتکار ویژگی مشترک همه افراد مشهور است. آنها با وجود موانع و مشکلات، هرگز تسلیم نمی‌شوند و با استمرار در تلاش، موفقیت‌های بزرگ خود را به دست می‌آورند.
+    </p>
+</div>
+
+<!-- بخش شبکه ارتباطات -->
+<div class="card">
+    <h2>شبکه ارتباطات و روابط موثر</h2>
+    <p>
+    شبکه ارتباطات قوی فرصت‌ها و منابع ارزشمندی فراهم می‌کند. افراد مشهور می‌دانند چگونه روابط حرفه‌ای و دوستانه را مدیریت کنند و از تجربیات دیگران بهره ببرند.
+    </p>
+</div>
+
+<!-- تصویر با لایت‌باکس -->
+<a href="#img2"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080" alt="پشتکار و موفقیت"></a>
+<div class="lightbox" id="img2">
+    <a href="#"><img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080" alt="پشتکار و موفقیت"></a>
+</div>
+
+<!-- نکته و هشدار -->
+<div class="tip">
+    <strong>نکته کاربردی:</strong> روزانه حداقل ۳۰ دقیقه برای یادگیری مهارت جدید اختصاص دهید تا با گذشت زمان تفاوت بزرگ ایجاد شود.
+</div>
+
+<div class="warning">
+    <strong>هشدار:</strong> انتظار موفقیت یک شبه نداشته باشید؛ همه افراد مشهور سال‌ها تلاش و شکست را پشت سر گذاشته‌اند.
+</div>
+
+<!-- نتیجه‌گیری -->
+<div class="card">
+    <h2>نتیجه‌گیری</h2>
+    <p>
+    رمز موفقیت افراد مشهور ترکیبی از استعداد، تمرین مداوم، عادات روزانه منظم، ذهنیت رشد، پشتکار و شبکه ارتباطات قوی است. با پیاده‌سازی این اصول، هر فردی می‌تواند مسیر موفقیت خود را هموار کند.
+    </p>
+</div>
+
+<a href="https://mahanasmayly036-design.github.io/Myblog/" class="back-button"><i class="fas fa-arrow-left"></i> بازگشت به صفحه اصلی</a>
+
+</div>
+
+<footer>
+    © 2025 سایت موفقیت و توسعه فردی. همه حقوق محفوظ است.
+</footer>
+
+<script>
+    // انیمیشن نمودارها
+    window.addEventListener('load', () => {
+        document.querySelector('.bar-discipline').style.width = '90%';
+        document.querySelector('.bar-focus').style.width = '75%';
+        document.querySelector('.bar-network').style.width = '60%';
+    });
+</script>
+
+</body>
+  </html>                                                   
