@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <p><a href="index.html">⬅ بازگشت به صفحه اصلی</a></p>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>خستگی و راه‌های رفع آن</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+body {
+    margin:0; font-family: 'Vazirmatn', sans-serif; line-height:1.8; background:#f4f6f8; color:#333;
+}
+header { background:#6a7dff; color:#fff; padding:50px 20px; text-align:center; border-bottom-left-radius: 20px; border-bottom-right-radius:20px;}
+header h1{margin:0;font-size:2rem;}
+.container{max-width:900px;margin:30px auto;padding:0 20px;}
+.card{background:#fff;padding:25px;margin-bottom:25px;border-radius:15px;box-shadow:0 6px 18px rgba(0,0,0,0.1);}
+.card img{width:100%;border-radius:12px;margin:15px 0;box-shadow:0 6px 15px rgba(0,0,0,0.1);}
+.card h2{margin-top:0;color:#6a7dff;}
+.back-btn{display:inline-block;margin:15px 0;padding:10px 20px;background:#6a7dff;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;}
+.back-btn:hover{background:#5571d1;}
+.tip{background:#d1f0ff;color:#055160;padding:12px 15px;border-radius:12px;margin:12px 0;display:flex;align-items:center;gap:10px;}
+.tip i{color:#055160;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>خستگی و راه‌های رفع آن</h1>
+<p>چگونه انرژی خود را بازیابی کنیم و روزی پرانرژی داشته باشیم</p>
+</header>
+
+<div class="container">
+
+<a href="https://mahanasmayly036-design.github.io/Myblog/" class="back-btn"><i class="fas fa-arrow-right"></i> بازگشت به صفحه اصلی</a>
+
+<!-- مقدمه -->
+<div class="card">
+<h2>مقدمه</h2>
+<p>خستگی یکی از چالش‌های اصلی دانش‌آموزان و افراد فعال است. کاهش انرژی می‌تواند تمرکز، یادگیری و بهره‌وری را تحت تاثیر قرار دهد. در این مقاله، با چند راهکار علمی و عملی برای مقابله با خستگی و بازیابی انرژی آشنا می‌شویم.</p>
+<img src="https://images.unsplash.com/photo-1532074205216-c52a4ef2aef7?auto=format&fit=crop&w=1200&q=80" alt="خستگی و انرژی">
+</div>
+
+<!-- راهکار 1 -->
+<div class="card">
+<h2>۱. خواب کافی و منظم</h2>
+<p>خواب عمیق و منظم مهم‌ترین عامل رفع خستگی است. تلاش کنید هر شب ۷ تا ۸ ساعت بخوابید و ساعت خواب و بیداری خود را ثابت نگه دارید. خواب ناکافی باعث کاهش تمرکز، افزایش استرس و افت انرژی می‌شود.</p>
+<div class="tip"><i class="fas fa-lightbulb"></i>نکته: قبل از خواب، از گوشی و نور آبی فاصله بگیرید تا کیفیت خواب بهبود یابد.</div>
+<img src="https://images.unsplash.com/photo-1588776814546-2b17b3b29ff3?auto=format&fit=crop&w=1200&q=80" alt="خواب کافی">
+</div>
+
+<!-- راهکار 2 -->
+<div class="card">
+<h2>۲. تغذیه سالم و میان‌وعده‌های انرژی‌بخش</h2>
+<p>بدن برای داشتن انرژی به سوخت نیاز دارد. مصرف میوه، سبزیجات، مغزها و آب کافی باعث افزایش تمرکز و کاهش خستگی می‌شود. از مصرف قند و نوشیدنی‌های انرژی‌زا به مقدار زیاد خودداری کنید.</p>
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80" alt="تغذیه سالم">
+</div>
+
+<!-- راهکار 3 -->
+<div class="card">
+<h2>۳. تحرک و ورزش سبک</h2>
+<p>ورزش سبک مانند پیاده‌روی، کشش و تمرینات کوتاه در طول روز، جریان خون را افزایش داده و انرژی بدن را تجدید می‌کند. حتی ۱۰ دقیقه ورزش کوتاه می‌تواند خستگی ذهن و جسم را کاهش دهد.</p>
+<div class="tip"><i class="fas fa-lightbulb"></i>نکته: ورزش صبحگاهی انرژی کل روز را بهبود می‌بخشد.</div>
+<img src="https://images.unsplash.com/photo-1554284126-09bcf1dff173?auto=format&fit=crop&w=1200&q=80" alt="ورزش سبک">
+</div>
+
+<!-- راهکار 4 -->
+<div class="card">
+<h2>۴. استراحت کوتاه و تکنیک‌های ریلکسیشن</h2>
+<p>استراحت‌های کوتاه بین کارها و استفاده از تکنیک‌هایی مانند تنفس عمیق، مدیتیشن و گوش دادن به موسیقی آرام، خستگی را کاهش می‌دهد و ذهن را تازه می‌کند.</p>
+<img src="https://images.unsplash.com/photo-1526403227-61d4f4c0b76b?auto=format&fit=crop&w=1200&q=80" alt="ریلکسیشن">
+</div>
+
+<!-- راهکار 5 -->
+<div class="card">
+<h2>۵. مدیریت زمان و وظایف</h2>
+<p>برنامه‌ریزی روزانه و اولویت‌بندی وظایف باعث کاهش فشار ذهنی و خستگی می‌شود. با تقسیم کارها به بخش‌های کوچک و مشخص، توانایی انجام آنها بدون احساس خستگی زیاد افزایش می‌یابد.</p>
+<img src="https://images.unsplash.com/photo-1581091870627-48f3d93d64c4?auto=format&fit=crop&w=1200&q=80" alt="مدیریت زمان">
+</div>
+
+<!-- نتیجه گیری -->
+<div class="card">
+<h2>نتیجه‌گیری</h2>
+<p>خستگی طبیعی است، اما با رعایت چند عادت ساده مانند خواب کافی، تغذیه سالم، ورزش سبک، استراحت کوتاه و مدیریت زمان، می‌توان انرژی و تمرکز را حفظ کرد. اجرای این راهکارها باعث افزایش بهره‌وری، کاهش استرس و بهبود کیفیت زندگی می‌شود.</p>
+<img src="https://images.unsplash.com/photo-1517502166878-35c93a0072bb?auto=format&fit=crop&w=1200&q=80" alt="انرژی و نشاط">
+<a href="https://mahanasmayly036-design.github.io/Myblog/" class="back-btn"><i class="fas fa-arrow-right"></i> بازگشت به صفحه اصلی</a>
+</div>
+
+</div>
+</body>
+</html>
